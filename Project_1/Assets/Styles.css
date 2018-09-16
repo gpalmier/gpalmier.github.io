@@ -138,6 +138,7 @@ body {
     margin-left: 340;
     position: absolute;
     z-index: 26;
+    line-height: 5px;
 
 }
 
@@ -147,7 +148,7 @@ body {
     font-variant:small-caps;
     text-align: center;
     width:auto;
-    margin-top: 393px;
+    margin-top: 370px;
     margin-right: -290px;
     margin-left: 265px;
     letter-spacing: .5px;
