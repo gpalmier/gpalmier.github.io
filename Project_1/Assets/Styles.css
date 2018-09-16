@@ -1,0 +1,171 @@
+
+body {
+    background-color: #f5c9ca;
+    /*border: 1px dashed yellow;*/
+    
+}
+
+.container {        /* this applies to entire sheet because that is what the container is encompassing */
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 36px;
+    width: 800px;
+  /*  border: 1px solid black; 
+    color: #000000;
+/*    border: 1px solid #ffffff;*/
+    font-family: 'Playfair Display SC', serif;
+    padding-right: 55px;
+    padding-left: 55px;
+   
+    
+}
+
+
+/* Use to position correction on letter */
+.analysis {
+    position: absolute;
+    z-index:20;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+
+/*Letter and Button */
+
+.letter-container {
+    width: auto;
+    display:flex;
+}
+
+.letter-container h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 580px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    font-weight: 400; 
+    margin-top: -205px;
+    margin-bottom: 0px;
+    margin-left: -65px;
+    margin-right: 0px;
+/*    position: absolute;*/
+    width: 500px;
+    float: left;
+    
+    
+}
+
+#button {
+    background-color: #000000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 495px;
+    margin-left: -359px;
+    z-index: 30;
+    
+}
+
+.info-section{
+    border-bottom: 1px solid #000000;
+    margin-bottom: 10px;
+/*    width: 550px;*/
+/*    float: right;*/
+    margin-left: 405px;
+    margin-top: 75px;
+    width: 354px;
+    
+ 
+}
+
+.info-section h2 { 
+    font-family: 'Playfair Display SC', serif;
+    font-size: 36pt;
+    text-align: right;
+    font-variant:small-caps;
+    font-weight: 100;
+    margin-top: -600px;
+    margin-bottom: 0px;
+    width: 354px;
+    
+}
+.info-section p {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 8pt;
+    text-align: right;
+    line-height: 21pt;
+    font-variant:small-caps;
+    font-weight: 100;
+    letter-spacing: .5px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    
+    
+
+}
+.sample-set{
+    font-family: 'Playfair Display SC', serif;
+    font-variant:small-caps;
+    font-size: 8pt;
+    text-align: right;
+    width: 354px;
+    margin-left:405px;
+    letter-spacing: 2px;
+}
+.photo-title {
+    font-family: 'Playfair Display SC', serif;
+
+    
+}
+.photo-title img{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 275px;
+    position: relative;
+    z-index: 25;
+   
+    
+}
+.name {
+    font-variant:small-caps;
+    letter-spacing: 2px;
+    font-size: 8pt; 
+    text-align: center;
+    margin-top: 310px;
+    margin-right: -290px;
+    margin-left: 340;
+    position: absolute;
+    z-index: 26;
+
+}
+
+
+.sources p {
+    font-family: 'Playfair Display SC', serif;
+    font-variant:small-caps;
+    text-align: center;
+    width:auto;
+    margin-top: 393px;
+    margin-right: -290px;
+    margin-left: 265px;
+    letter-spacing: .5px;
+    font-size: 6pt;
+    position: absolute;
+    border-top: .5px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.otherletter img {
+    width: 900px;
+    height: auto;
+    float: right;
+    margin-top: -1178px;
+    margin-right: -256px;
+
+
+    
+}

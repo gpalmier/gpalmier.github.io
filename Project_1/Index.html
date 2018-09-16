@@ -1,7 +1,9 @@
 <! DOCTYPE html>
 <head>
-    <link rel= "stylesheet" href = "Images/Styles.css">
+    <link rel= "stylesheet" href = "Assets/Styles.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/jquery.cycle2.min.js"></script>
 </head>
 
 <html>
@@ -9,35 +11,51 @@
     <div class = "container">
         
         <div class = "letter-container">
-            <h1>Q</h1>
+            <div> <h1>Q</h1></div>
+            <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#button">  
+            
+                <img src="assets/empty-analysis.png" width="397" height="543" alt="an empty .png place holder file" class="cycle-slide" />
+                <img src="assets/letter-analysis.png" width="397" height="543" alt="typographic analysis of the Playfair" class="cycle-slide" />
+            
+            
+            </div>
+            
+            <div id="button"></div>
         </div>
         
-        <div class = "button"></div>
     
     <div class = "content-right">
         <div class = "info-section">
-            <h2>Playfair Display Regular</h2>
+            <h2>Playfair Display</h2>
             <p>Playfair Display was recently cultivated by Danish typeface designer Claus Eggers Sørensen in 2011. Playfair display represents transitional design, particularly signaling the style shift from broad nib quills to pointed steel pens. As printing technology advanced, letterforms were able to be designed with varying contrasts. Sorensen took inspiration from designer John Baskerville, William Martin’s ‘Boydell Shakespeare’, and ‘Scotch Roman’ designs to develop a typeface evocative of the era.</p>
         </div>
        
         <div class = "sample-set">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
         </div>
         
+     
+        </div>
+    
         <div class = "photo-title"> 
-            <img src= "Images/Gena">
+            <img src= "Assets/img.png">
+        </div>
+        
+        <div class ="name">
             <h3>Gena Palmieri</h3>
             <h4>IT Management & Data Science</h4>
         </div>
-        </div>
        
         <div class = "sources">
-            <h3>Sources</h3>
-            <p>Source 1</p>
-            <p>Source 2</p>
-            <p>Source 3</p>
+            <p> SOURCES | www.forthehearts.net/ | www.fonts.google.com/specimen/Playfair+Display+SC</p>
+           
+        </div>
+        
+        <div class ="otherletter">
+            <img src = "Assets/Letter%20Form%20Mockup3.png">
         </div>
             
     </div> 
+        
       
             
     
