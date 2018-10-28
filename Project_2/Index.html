@@ -1,0 +1,319 @@
+<! DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href = "Assets/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+
+<html>
+    <body>
+    <div class = "container">
+    
+       <!-- <button onclick="myFunction()">Try it</button>
+        <div id="myDIV">This is my DIV element.</div>
+        
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+                }
+        }
+        </script>
+        -->
+        
+        <div class = "title_page" id = "page1">
+            <div class = "title">
+                <h1>YOUR PERSONALIZED SKINCARE ROUTINE</h1>
+                <p>Choose your skin type below.</p>
+            </div>
+    
+            
+            <div id = "button_normal">
+                <p>NORMAL</p>
+            </div>
+            
+            <div id = "button_dry">
+                <p>DRY</p>  
+            </div>
+            
+            <div id = "button_oily">
+                <p>OILY</p>  
+            </div>
+            
+            <div id = "button_combo">
+                <p>COMBO</p>  
+            </div>
+           
+        </div>
+            
+        
+        <div class ="content">
+            
+            <div class = "content_normal relative" id="page2">
+                <div class = "text_normal">
+                    <h2>NORMAL</h2>
+                    <p>One would consider their skin type to be normal if they are able to describe it as neither oily nor dry. If there is ever a presence of oiliness or dryness, it is often rare and easy to resolve. Pores tend to be not easily visible and skin exhibits few lines and wrinkles. A normal skin type has a smooth and even skin tone with no marks or blemishes.
+                    </p>
+                </div>
+                
+                <div id = "normal_1">
+                    <img src = "Assets/step1_normal.png">
+                </div>
+                
+                <div id = "normal_2">
+                    <img src = "Assets/step2_normal.png">
+                </div>
+                    
+                <div id = "normal_3">
+                    <img src = "Assets/step3_normal.png">
+                </div>
+                
+            
+                <div id = "button1_normal"></div>
+                <div id = "button2_normal"></div>
+                <div id = "button3_normal"></div>
+                <div id = "normal_done">DONE</div>
+                
+                <!-- MODAL CONTENT NORMAL -->
+                <div class="modal-content" id="modal-content_step1_normal">
+                    <span class="close" id="modal-content_step1_normal_close">&times;</span>
+            
+                        <h1>FRESH</h1>
+                    <h2>Soy Face Cleanser<br><br></h2>
+                        <h5>This gel face wash has a cult following for the way it gently removes everyday dirt and makeup—even mascara—without drying the skin. With amino acid-rich soy proteins, soothing cucumber extract, and balancing rosewater, it tones, soothes, and softens for a radiant, healthy-looking complexion. Perfect solution to treat dryness, fine lines and wrinkles, as well as loss of firmness and elasticity.<br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/soy-face-cleanser-P7880?skuId=487694&icid2=skin_in_the_game_lp_desktop_normal_cleanse_other_carousel_us:p7880" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step1_normal.png">
+                    </div>
+                <div class="modal-content" id="modal-content_step2_normal">
+                    <span class="close" id="modal-content_step2_normal_close">&times;</span>
+            
+                        <h1>ESTÉE LAUDER</h1>
+                        <h2> Advanced Night Repair Synchronized Recovery Complex</h2>
+                        <h5>Reveal a smoother, more radiant, younger look and wake up to more beautiful skin every day. This powerful serum dramatically reduces the look of key signs of aging, while maximizing the power of skin’s natural nighttime renewal with exclusive ChronoluxCB™ technology. It improves the appearance of fine lines and wrinkles, and leaves skin smoother, stronger, and more hydrated.<br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/advanced-night-repair-synchronized-recovery-complex-ii-P379994?skuId=1551753&icid2=skin_in_the_game_lp_desktop_normal_treat_other_carousel_us:p379994" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step2_normal.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step3_normal">
+                    <span class="close" id="modal-content_step3_normal_close">&times;</span>
+            
+                        <h1>BELIF</h1>
+                        <h2>The True Cream Aqua Bomb<br><br></h2>
+                        <h5>This formula contains a blend of apothecary herbs, including antioxidant-rich lady's mantle which helps neutralize skin-damaging free radicals, improves skin elasticity, and minimizes the appearances of pores. The refreshing cream is formulated to burst when applied, releasing a flood of weightless moisture onto skin for a healthy, smooth, supple appearance. Specifically treats for dullness and uneven texture.<br><br><br><br> </h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/the-true-cream-aqua-bomb-P394639?skuId=1686427&icid2=skin_in_the_game_lp_desktop_normal_moisturize_other_carousel_us:p394639" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step3_normal.png">
+                    </div>
+                </div>
+
+                            
+            <div class = "content_dry relative" id = "page3"> 
+                <div class = "text_dry">
+                    <h2>Dry Skin</h2>
+                    <p>One would consider their skin type to be dry if they notice a tightness to their skin. They may have scaly patches or flaking, and pores are generally invisible. Those who have dry skin may suffer from premature wrinkles and at times experience irritation. 
+                    </p>
+                </div>
+                <div id="dry_1">
+                    <img src = "Assets/step1_dry.png">
+                </div>
+                <div id="dry_2">
+                    <img src = "Assets/step2_dry.png">
+                </div>
+                <div id="dry_3">
+                    <img src = "Assets/step3_dry.png">
+                </div>
+                
+            
+                <div id = "button1_dry"></div>
+                <div id = "button2_dry"></div>
+                <div id = "button3_dry"></div> 
+                <div id = "dry_done">DONE</div>
+
+                
+                <!-- MODAL CONTENT DRY -->
+                <div class="modal-content" id="modal-content_step1_dry">
+                    <span class="close" id="modal-content_step1_dry_close">&times;</span>
+            
+                        <h1>CLINIQUE</h1>
+                        <h2>Take The Day Off Cleansing Balm<br><br></h2>
+                        <h5>This makeup remover effortlessly dissolves even the most tenacious makeup and sunscreen. Its non-greasy, non-drying, lightweight formula nourishes skin, cleanses thoroughly, and rinses off completely, so all that’s left is a fresh, dewy glow. A transformational, lightweight makeup remover that goes from balm to oil to milk to melt away every trace of eye and face makeup and sunscreen. <br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/take-the-day-off-cleansing-balm-P126301?skuId=886267&icid2=skin_in_the_game_lp_desktop_dry_cleanse_other_carousel_us:p126301" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step1_dry.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step2_dry">
+                    <span class="close" id="modal-content_step2_dry_close">&times;</span>
+            
+                        <h1>KIEHL'S</h1>
+                        <h2>Midnight Recovery Concentrate<br><br></h2>
+                        <h5>Midnight Recovery Concentrate restores and replenishes for smoother, healthier-looking skin—all while you sleep. This powerful formula works at night when skin is most receptive to repairing itself from daily aggressors. A blend of oils—including naturally-derived lavender, evening primrose, and squalene—to deliver essential hydration and promote a softer, smoother, brighter complexion.<br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/midnight-recovery-concentrate-P421998?skuId=1988740&icid2=skin_in_the_game_lp_desktop_dry_treat_other_carousel_us:p421998" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step2_dry.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step3_dry">
+                    <span class="close" id="modal-content_step3_dry_close">&times;</span>
+            
+                        <h1>CLINIQUE</h1>
+                        <h2>Dramatically Different Moisturizing Lotion</h2>
+                        <h5>This cult-classic moisture "drink" developed by Clinique's dermatologists maintains optimal moisture balance for very dry skin or comfortable to oily skin in the T-zone. With a silky texture and quick penetration, this lightweight formula strengthens skin's own moisture barrier by 54 percent, so more moisture stays in. All-day hydration leaves skin silky-soft, springy, and absolutely radiant. Skin looks younger, longer.<br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/dramatically-different-moisturizing-lotion-P381030?skuId=1538354&icid2=skin_in_the_game_lp_desktop_dry_moisturize_other_carousel_us:p381030" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step3_dry.png">
+                    </div>
+                
+             
+            </div>
+            
+            <div class = "content_oily relative" id = "page4">
+                <div class = "text_oily">
+                    <h2>Oily Skin</h2>
+                    <p>One would consider their skin type to be oily if they notice a great deal of shine on their face. They often deal with enlarged pores which makes skin prone to blackheads and other blemishes. Those with oily skin may experience extreme acne breakouts. 
+                    </p>
+                </div>
+                <div id="oily_1">
+                    <img src = "Assets/step1_oily.png">
+                </div>
+                <div id="oily_2">
+                    <img src = "Assets/step2_oily.png">
+                </div>
+                <div id="oily_3">
+                    <img src = "Assets/step3_oily.png">
+                </div>
+               
+                <div id = "button1_oily"></div>
+                <div id = "button2_oily"></div>
+                <div id = "button3_oily"></div>
+                <div id = "oily_done">DONE</div>
+               
+                  <!-- MODAL CONTENT OILY -->
+                <div class="modal-content" id="modal-content_step1_oily">
+                    <span class="close" id="modal-content_step1_oily_close">&times;</span>
+            
+                        <h1>BOSCIA</h1>
+                        <h2>Detoxifying Black Charcoal Cleanser</h2>
+                        <h5>The Detoxifying Black Cleanser creates a smooth, luminous, clarified, and healthy-looking complexion. Brimming with purifying black activated charcoal and vitamin P, the active component in citrus peel, the formula warms skin on contact to open the pores, then lifts away dirt, oil, and impurities to combat acne and blemishes. Skin is left looking and feeling smooth, even toned, and glowing.<br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/detoxifying-black-cleanser-P302940?skuId=1393057&icid2=skin_in_the_game_lp_desktop_oily_cleanse_bestseller_carousel_us:p302940" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step1_oily.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step2_oily">
+                    <span class="close" id="modal-content_step2_oily_close">&times;</span>
+            
+                        <h1>SUNDAY RILEY</h1>
+                        <h2>U.F.O. Ultra-Clarifying Face Oil<br><br></h2>
+                        <h5>A quick-absorbing, medicated dry oil to clear congested pores, treat and prevent acne, and smooth the appearance of fine lines and wrinkles for clearer, smoother skin. Counterbalancing the potentially drying effects of salicylic acid, milk thistle and cucumber seed oil nourish the skin and smooth the appearance of lines and wrinkles, without leaving a greasy residue. Chamomile and neroli soothe stressed, blemish-prone skin.<br><br> </h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/u-f-o-ultra-clarifying-face-oil-P410400?skuId=1842251&icid2=skin_in_the_game_lp_desktop_oily_treat_bestseller_carousel_us:p410400" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step2_oily.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step3_oily">
+                    <span class="close" id="modal-content_step3_oily_close">&times;</span>
+            
+                        <h1>DR. DENNIS GROSS SKINCARE</h1>
+                        <h2>Hyaluronic Marine Oil-Free Moisture Cushion</h2>
+                        <h5>A unique, water-break gel-cream formula featuring Japanese marine algae and hyaluronic acid to lock in moisture and keep skin looking dewy, supple, and plump all day. Commonly referred to as “sea grapes” or “green caviar”, this Japanese algae is fortified with essential amino acids and B vitamins, working synergistically with hyaluronic acid to enhance skin’s elasticity and moisture content.<br><br><br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/hyaluronic-marine-oil-free-moisture-cushion-P416755?skuId=1899210&icid2=skin_in_the_game_lp_desktop_oily_moisturize_other_carousel_us:p416755" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step3_oily.png">
+                    </div>
+                
+            </div>
+            
+            <div class = "content_combo relative" id = "page5">
+                <div class = "text_combo">
+                    <h2>Combination Skin</h2>
+                    <p>One would consider their skin type to be combination if their skin features two or more different skin types on their face. Many often mistake combination skin to be oily as it can be hard to identify and treat. Excess shine generally occurs in the T-zone, which includes the forehead, nose, and chin. A skin routine to treat combination skin must be able to exfoliate without irritating the skin. 
+                    </p>
+                </div>
+                <div id="combo_1">
+                    <img src = "Assets/step1_combo.png">
+                </div>
+                <div id="combo_2">
+                    <img src = "Assets/step2_combo.png">
+                </div>
+                <div id="combo_3">
+                    <img src = "Assets/step3_combo.png">
+                </div>
+               
+                <div id = "button1_combo"></div>
+                <div id = "button2_combo"></div>
+                <div id = "button3_combo"></div>
+                <div id = "combo_done">DONE</div>
+                
+                  <!-- MODAL CONTENT COMBO -->
+                <div class="modal-content" id="modal-content_step1_combo">
+                    <span class="close" id="modal-content_step1_combo_close">&times;</span>
+            
+                        <h1>FARMACY</h1>
+                        <h2>Clean Bee Ultra Gentle Facial Cleanser</h2>
+                        <h5>An ultra-gentle, soothing facial cleanser that lifts away excess oil, impurities, and makeup while infusing moisture with honey and hyaluronic acid. Perfect for everyday use and made with sensitive skin in mind, this Ultra Gentle Facial Cleanser washes away surface oil, impurities, pollution residue, and makeup while helping to maintain the skin’s natural moisture barrier. The hydrating formula helps to soothe dry skin and leave it feeling soft and clean.<br><br></h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/clean-bee-ultra-gentle-facial-cleanser-P431187?skuId=2046597&icid2=skin_in_the_game_lp_desktop_combination_cleanse_other_carousel_us:p431187" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step1_combo.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step2_combo">
+                    <span class="close" id="modal-content_step2_combo_close">&times;</span>
+            
+                        <h1>ALGENIST</h1>
+                        <h2>GENIUS Liquid Collagen<br><br></h2>
+                        <h5>This breakthrough fountain of youth leverages a clean, vegan formulation design to help replenish and preserve a healthy, youthful skin matrix by delivering vegan collagen to the skin in its most active state. The anti-aging formula contains 13,000 microalgae oil beads naturally sourced and sustainably produced, omegas 3, 6, and 9, and a natural source of vitamin E. Skin is left more resilient, brighter, and youthful-looking.<br><br> </h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/genius-liquid-collagen-P421277?skuId=1957182&icid2=skin_in_the_game_lp_desktop_combination_treat_other_carousel_us:p421277" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step2_combo.png">
+                    </div>
+                
+                <div class="modal-content" id="modal-content_step3_combo">
+                    <span class="close" id="modal-content_step3_combo_close">&times;</span>
+            
+                        <h1>IT COSMETICS</h1>
+                        <h2>Secret Sauce Clinically Advanced Miraculous Anti-Aging Moisturize</h2>
+                        <h5>This breakthrough fountain of youth leverages a clean, vegan formulation design to help replenish and preserve a healthy, youthful skin matrix by delivering vegan collagen to the skin in its most active state. The anti-aging formula contains 13,000 microalgae oil beads naturally sourced and sustainably produced, omegas 3, 6, and 9, and a natural source of vitamin E. Skin is left more resilient, brighter, and youthful-looking.<br><br> </h5>
+                        <div class="link">
+                            <a href = "https://www.sephora.com/product/secret-sauce-clinically-advanced-miraculous-anti-aging-moisturizer-P421958?skuId=1982859&icid2=skin_in_the_game_lp_desktop_combination_moisturize_other_carousel_us:p421958" target="_blank" >SHOP FOR PRODUCT</a>
+                        </div>
+                        <img src = "Assets/popup_step3_combo.png">
+                    </div>
+               
+            </div>
+        </div>
+        
+        <div class="content_completed" id="page6">
+            <div class = "message">
+                <p>You have completed all of the steps in your personalized skincare routine.</p>
+            </div>
+            <div id = "button2_new">Try A New Skin Type</div>
+        
+        
+        </div>
+    
+        
+    </div>
+    
+    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/scrollTo.custom2.js"></script>
+    <script src="js/popup.js"></script>
+</html>
