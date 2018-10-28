@@ -1,0 +1,829 @@
+* {
+    margin: 0px;
+  
+}
+
+.container {
+    width: 1024px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-image: url(download.jpeg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+
+/* TITLE PAGE CONTENT AND ASSETS */
+.title_page {
+    height: 100vh;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+    
+}
+
+.title h1{
+    font-size: 24pt;
+    font-weight:100;
+    width: 200px;
+    letter-spacing: 4px
+    
+}
+.title p{
+    font-size:12pt;
+    font-weight:100;
+    margin-top: 50px;
+}
+
+ 
+/*
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+*/
+
+
+#button_normal {
+    background-color: white;
+    height:50px;
+    width: 110px;
+    margin-top: 60px;
+    margin-left: 0px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+
+}
+
+
+#button_dry {
+    background-color: white;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 125px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button_oily {
+    background-color: white;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 250px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button_combo {
+    background-color: white;
+    height:50px;
+    width: 110px;
+    margin-top: -52px;
+    margin-left: 375px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button_normal:hover { 
+    background-color:black;
+    color:white;
+}
+#button_dry:hover { 
+    background-color:black;
+    color:white;
+}
+#button_oily:hover { 
+    background-color:black;
+    color:white;
+}
+#button_combo:hover { 
+    background-color:black;
+    color:white;
+}
+
+/* NORMAL SKIN CONTENT AND ASSETS */
+.content_normal {
+    height: 100vh;
+    background-color: #d4e9f8;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.relative{
+    position:relative;
+    
+}
+
+.text_normal h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_normal p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+#normal_1 img{
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#normal_2 img {
+    width:100px;
+    margin-top:0px;
+    margin-left:0px;
+}
+
+#normal_3 img {
+    width: 100px;
+    margin-top:0px;
+    margin-left:0px;
+
+}
+
+
+#button1_normal {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button2_normal { 
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button3_normal {
+   background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#normal_done { 
+    background-color: white;
+    height:50px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#normal_done:hover { 
+    background-color:black;
+    color:white;
+}
+
+#button1_normal:hover {
+    background-color: white;
+}
+#button2_normal:hover {
+    background-color: white;
+}
+#button3_normal:hover {
+    background-color: white;
+}
+/* DRY SKIN CONTENT AND ASSETS */
+.content_dry {
+    height: 100vh;
+    background-color: #f1f1ef;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_dry h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_dry p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+
+    
+}
+
+#dry_1 img{
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#dry_2 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#dry_3 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+
+#button1_dry {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button2_dry { 
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button3_dry {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#dry_done { 
+    background-color: white;
+    height:50px;
+    width: 160px;
+    margin-top: 65px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+#dry_done:hover { 
+    background-color:black;
+    color:white;
+}
+
+#button1_dry:hover {
+    background-color:white;
+}
+#button2_dry:hover {
+    background-color:white;
+}
+#button3_dry:hover {
+    background-color:white;
+}
+
+/* OILY SKIN CONTENT AND ASSETS */
+.content_oily {
+    height: 100vh;
+    background-color: #fac748;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_oily h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_oily p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black; 
+}
+
+#oily_1 img{
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#oily_2 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#oily_3 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#button1_oily {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button2_oily { 
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button3_oily {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+
+#oily_done { 
+    background-color: white;
+    height:50px;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#oily_done:hover { 
+    background-color:black;
+    color:white;
+}
+
+#button1_oily:hover {
+    background-color:white;
+}
+#button2_oily:hover {
+    background-color:white;
+}
+#button3_oily:hover {
+    background-color:white;
+}
+
+/* COMBO SKIN CONTENT AND ASSETS */
+.content_combo {
+    height: 100vh;
+    background-color: #cadfec;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+.text_combo h2{
+    font-weight: 100;
+    font-size: 24pt;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.text_combo p{
+    font-weight: 100;
+    font-size: 8pt;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+
+
+#combo_1 img{
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+
+#combo_2 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#combo_3 img {
+    width:100px;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#button1_combo {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button2_combo { 
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#button3_combo {
+    background-color:#000000;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    color:white;
+    text-align: center;
+    line-height:30px;
+    margin-left:0px;
+    margin-top:0px;
+    position:absolute;
+    z-index:100;
+}
+#combo_done { 
+    background-color: white;
+    height:50px;
+    width: 160px;
+    margin-top: 25px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+#combo_done:hover { 
+    background-color:black;
+    color:white;
+}
+
+
+#button1_combo:hover{
+    background-color:white;
+}
+#button2_combo:hover{
+    background-color:white;
+}
+#button3_combo:hover{
+    background-color:white;
+}
+
+
+/* COMPLETED PAGE CONTENT AND ASSETS */
+.content_completed {
+    height: 100vh;
+    background-color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20%;
+}
+
+.message p {
+    font-weight: 100;
+    font-size: 12pt;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 50px;
+   
+}
+
+#button2_new { 
+    background-color: white;
+    height:50px;
+    width: 160px;
+        margin-top: 30px;
+    margin-left: 235px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-weight:600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border:1px solid black;
+}
+
+#button2_new:hover { 
+    background-color:black;
+    color:white;
+}
+a {
+    color:#f9cccc;
+}
+
+
+/*POP UP WINDOW TESTING*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(255,255,255,0.6); /* Black w/ opacity */
+    visibility:hidden;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 40px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content h1 {
+    font-weight: 600;
+    font-size: 12pt;
+    margin-left: 320px;
+    margin-top: 20px;
+    padding-bottom:5px;
+    border-bottom: 1px solid black;  
+}
+.modal-content h2 {
+    font-weight: 100;
+    font-size: 16pt;
+    margin-left: 320px;
+    margin-top: 10px;    
+}
+.modal-content h5 {
+    font-weight: 100;
+    font-size: 10pt;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.link {
+    font-weight: 100;
+    font-size: 10pt;
+    margin-left: 320px;
+    margin-top: 30px;
+    color: #f9cccc;
+}
+.modal-content img{
+    width: 250px;
+    margin-left: 0%;
+    margin-top: -57%;
+}
+
+
+/* Modal Box Visibility */
+
+.visible {
+    visibility:visible !important;
+}
+
+
+
+#modal-content_step1_normal{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step2_normal{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step3_normal{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step1_dry{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step2_dry{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step3_dry{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step1_oily{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step2_oily{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step3_oily{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step1_combo{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+
+#modal-content_step2_combo{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+#modal-content_step3_combo{
+    position:absolute;
+    left:16%;
+    top:16%;
+    visibility:hidden;
+    z-index: 200;
+}
+
+a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #f9cccc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
