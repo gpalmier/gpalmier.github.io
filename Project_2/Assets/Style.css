@@ -150,13 +150,13 @@
     font-weight: 100;
     font-size: 24pt;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
 .text_normal p{
     font-weight: 100;
-    font-size: 8pt;
+    font-size: 9pt;
     text-align: center;
     line-height: 25px;
     padding-bottom: 25px;
@@ -254,7 +254,7 @@
 /* DRY SKIN CONTENT AND ASSETS */
 .content_dry {
     height: 100vh;
-    background-color: #f1f1ef;
+    background-color: #ffe8ae;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -264,13 +264,13 @@
     font-weight: 100;
     font-size: 24pt;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
 .text_dry p{
     font-weight: 100;
-    font-size: 8pt;
+    font-size: 9pt;
     text-align: center;
     line-height: 25px;
     padding-bottom: 25px;
@@ -367,10 +367,10 @@
     background-color:white;
 }
 
-/* OILY SKIN CONTENT AND ASSETS */
+/* OILY SKIN CONTENT AND ASSETS ffdc97 */
 .content_oily {
     height: 100vh;
-    background-color: #fac748;
+    background-color: #f1f1ef ;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -380,13 +380,13 @@
     font-weight: 100;
     font-size: 24pt;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
 .text_oily p{
     font-weight: 100;
-    font-size: 8pt;
+    font-size: 9pt;
     text-align: center;
     line-height: 25px;
     padding-bottom: 25px;
@@ -484,7 +484,7 @@
 /* COMBO SKIN CONTENT AND ASSETS */
 .content_combo {
     height: 100vh;
-    background-color: #cadfec;
+    background-color: #ffebeb;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -494,13 +494,13 @@
     font-weight: 100;
     font-size: 24pt;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
 .text_combo p{
     font-weight: 100;
-    font-size: 8pt;
+    font-size: 9pt;
     text-align: center;
     line-height: 25px;
     padding-bottom: 25px;
@@ -518,7 +518,7 @@
 
 #combo_2 img {
     width: 75px;
-    margin-top:-260px;
+    margin-top:-280px;
     margin-left:275px;
 }
 
@@ -702,7 +702,6 @@ a {
 
 .visible {
     visibility:visible !important;
-    
 }
 
 
