@@ -3,9 +3,8 @@
 $(document).ready(function (){
     $('#button1_normal').click(function() {
         $("#modal-content_step1_normal").toggleClass("visible");
-    $("container").toggleClass("backgroundchange");
         });
-});
+
 
 // Button to close a modal
 $(document).ready(function (){
