@@ -2,7 +2,8 @@
 // Button to open a modal
 $(document).ready(function (){
     $('#button1_normal').click(function() {
-        $("#modal-content_step1_normal").toggleClass("visible")
+        $("#modal-content_step1_normal").toggleClass("visible");
+    $("container").toggleClass("backgroundchange");
         });
 });
 

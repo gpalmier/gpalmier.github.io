@@ -16,6 +16,15 @@
     background-size: cover; */
     
 }
+.backgroundchange #page-wrap {
+
+  /* Blur and de-color */
+  -webkit-filter: blur(5px) grayscale(50%);
+
+  /* Recede */
+  -webkit-transform: scale(0.9);
+
+}
 
 
 /* TITLE PAGE CONTENT AND ASSETS */
@@ -150,7 +159,7 @@
     font-weight: 100;
     font-size: 24pt;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 25px;
 }
 
@@ -254,7 +263,7 @@
 /* DRY SKIN CONTENT AND ASSETS */
 .content_dry {
     height: 100vh;
-    background-color: #ffe8ae;
+    background-color: #f1f1ef;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -367,10 +376,10 @@
     background-color:white;
 }
 
-/* OILY SKIN CONTENT AND ASSETS ffdc97 */
+/* OILY SKIN CONTENT AND ASSETS */
 .content_oily {
     height: 100vh;
-    background-color: #f1f1ef ;
+    background-color: #A7ABC9;
     padding-left: 200px;
     padding-right: 200px;
 }
