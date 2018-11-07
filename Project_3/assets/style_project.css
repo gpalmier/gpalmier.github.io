@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*  includes padding and border in the width and height of an object  */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/*****************/
+/**** Header *****/
+/*****************/
+
+header {
+    position: relative;
+    z-index: 3;
+}
+
+.site-header {
+    background-color: pink;
+    width: 100%;
+    position: fixed;
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+}
+
+.site-title {
+    margin: 2rem;
+    float: none;
+    max-width: 100%;
+    text-align: center;
+}
+
+.navigation {
+    margin: 2rem;
+    float: none;
+    max-width: 100%;
+    text-align: center;  
+}
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+.spacing {
+    padding: 0;
+    }
+
+.content{
+    position: relative;
+    width: 100%;
+    float: left;
+    background-color:white;
+    height:100vh;
+    padding: 13rem 2rem 2rem 2rem;
+
+}
+.content2 {
+    width:75%;
+    height:50%;
+    display: flex;
+    background-color: blue
+}
+ /*****************/
+ /**** Footer *****/
+ /*****************/
+
+footer {
+    position: absolute;
+    z-index: 3;
+}
+.site-footer {
+    width: 100%;
+    padding: 5% 2.5% 2.5% 2.5%;
+    background-color: pink;
+    border-top: .1rem solid black;
+    border-bottom: .1rem solid black;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 768px) {
+    .exploration{
+        display: flex;
+    }
+    .style {
+        width: 25%;
+        height: 100vh;
+    }
+    .site-title {
+    margin: 2rem;
+    float: left;
+    text-align: left;
+    
+    }
+    .navigation {
+    margin: 2rem;
+    margin-top: 3rem;
+    float: right;
+    text-align: right;
+    
+    }
+    .content{
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color:white;
+    height:100vh;
+    padding: 9rem 2rem 2rem 2rem;
+
+}
+
+}
