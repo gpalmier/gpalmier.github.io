@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*  includes padding and border in the width and height of an object  */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/*****************/
+/**** Header *****/
+/*****************/
+
+header {
+    position: relative;
+    height:11.25rem;
+}
+
+.header-wrapper {
+    height:100%;
+}
+.site-header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding: 1% 1% 1% 1%;
+}
+
+.site-title {
+    margin: 1rem;
+    float: none;
+    max-width: 100%;
+    text-align: center;
+}
+
+.navigation {
+    margin: 1rem;
+    float: none;
+    max-width: 100%;
+    text-align: center; 
+    
+}
+.site-title img {
+    height:100px;
+    width:83px; 
+}
+
+.navigation a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight:600;
+    font-size: 10pt;
+    margin-right:20px;
+    margin-left:20px;  
+}
+a:hover {
+        color: #D79FA4;
+}
+
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 11.25rem;
+    background-color: white;
+    
+}
+.spacing {
+    padding: 0;
+    }
+
+.style{
+    width:100%;
+}
+.responsive{
+    width:100%;
+    height:auto;
+}
+
+
+.title_img img{
+    width:15%;
+    height:auto;
+    margin-left:1rem;
+    margin-top:3rem;
+    margin-bottom:1rem;
+    
+}
+
+
+.title h1{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom:1rem; 
+    margin-top:rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    
+}
+.title h2{
+    font-size: .75rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    text-transform: uppercase;
+    color:#D79FA4 ;
+    margin-bottom:1rem; 
+    margin-top:rem;
+    margin-left:1rem;
+    margin-right:1rem;
+    letter-spacing: .08rem;
+    
+}
+
+.text {
+    font-size:.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    color: black;
+    margin-bottom: 25px;
+    margin-left:1rem;
+    margin-right:1rem;
+    line-height:17pt;
+}
+
+.project_img img{
+    width: 100%;
+    height: auto; 
+    margin-bottom:1rem;
+}
+
+
+
+
+  /*****************/
+ /**** Footer ****
+
+
+footer {
+    position: absolute;
+}
+.site-footer {
+    width: 100%;
+    padding: 5% 2.5% 2.5% 2.5%;
+    background-color: white;
+    border-top: .05rem solid black;
+}
+ ****************/
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 768px) {
+    
+    header {
+    position: relative;
+    height:8rem;
+}
+    main {
+    margin-top: 8rem;
+}
+
+    .exploration{
+        display: flex;
+    }
+    .style {
+        width: 25%;
+        height: 100vh;
+    }
+    .site-title {
+    margin: 2rem;
+    float: left;
+    text-align: left;
+    
+    }
+
+    body{
+        background-color: white;
+    }
+    main {
+    margin-top: 8rem;
+    width: 100%;
+    
+}
+    .navigation {
+    margin: 2rem;
+    margin-top: 3rem;
+    float: right;
+    text-align: right;
+    
+    }
+    .content {
+        width: 30%;
+        margin-left:2%;
+        background-color:white;
+        margin-right: 3%;
+        position:fixed;
+        margin-top:-2rem;
+        margin-bottom:2rem;
+        height:75%;
+        overflow:scroll;
+    }
+    .project_img img{
+        margin-left:35%;
+        width: 55%;
+        margin-bottom:2rem;
+        margin-right:10%;
+
+    }
+    .project_img{
+        margin-top:3rem;
+    }
+
+}
+
+}

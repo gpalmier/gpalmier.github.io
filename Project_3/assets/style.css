@@ -28,27 +28,45 @@ header {
 }
 
 .site-header {
-    background-color: pink;
+    background-color: white;
     width: 100%;
     position: fixed;
-    border-top: .1rem solid black;
-    border-bottom: .1rem solid black;
     padding: 1% 1% 1% 1%;
 }
 
 .site-title {
-    margin: 2rem;
+    margin: 1rem;
     float: none;
     max-width: 100%;
     text-align: center;
 }
 
 .navigation {
-    margin: 2rem;
+    margin: 1rem;
     float: none;
     max-width: 100%;
-    text-align: center;  
+    text-align: center; 
+    
 }
+img {
+    height:100px;
+    width:83px; 
+}
+
+.navigation a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-weight:600;
+    font-size: 10pt;
+    margin-right:20px;
+    margin-left:20px;
+    
+    
+    
+}
+
 
 /*****************/
 /**** Main *****/
